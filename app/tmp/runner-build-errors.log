@@ -1,0 +1,2 @@
+go: finding module for package github.com/lil-shimon/workManagerV2/app/handler/type
+server.go:6:5: no matching versions for query "latest"
