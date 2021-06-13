@@ -13,6 +13,6 @@ func main() {
     })
 
     // Routes
-    e.POST("/store/type", type.CreateType)
+    // e.POST("/store/type", type.CreateType)
     e.Logger.Fatal(e.Start(":1323"))
 }

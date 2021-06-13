@@ -1,3 +1,5 @@
+package type
+
 type Task struct {
 	Name string `json:"name"`
 }
