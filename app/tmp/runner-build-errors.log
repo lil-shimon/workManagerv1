@@ -1,2 +1,0 @@
-go: finding module for package github.com/lil-shimon/workManager/app/handler/type
-server.go:6:5: module github.com/lil-shimon/workManager@latest found (v0.0.0-20210612014759-a46029140721), but does not contain package github.com/lil-shimon/workManager/app/handler/type

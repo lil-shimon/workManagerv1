@@ -1,13 +1,20 @@
-package type
+package handler
 
-type Task struct {
+import (
+	"github.com/labstack/echo"
+	"net/http"
+	"fmt"
+)
+
+type TaskType struct {
 	Name string `json:"name"`
 }
 
 func CreateType (c echo.Context) error {
-	type := new(Task)
-	if err := c.Bind(type); err != nil {
+	taskType := new(TaskType)
+	fmt.Println("creating", c)	
+	if err := c.Bind(taskType); err != nil {
 		return err
 	}
-	return c.Json(http.StatusCreated, type)
+	return c.JSON(http.StatusCreated, taskType)
 }
