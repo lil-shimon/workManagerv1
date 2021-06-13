@@ -3,7 +3,7 @@ package main
 import (
     "net/http"
     "github.com/labstack/echo"
-    "github.com/lil-shimon/workManagerV2/app/handler/type"
+    "github.com/lil-shimon/workManager/app/handler/type"
 )
 
 func main() {
